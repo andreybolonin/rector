@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Rector\Symfony\Tests\Rector\Yaml\ParseFileRector;
+namespace Rector\Symfony\Tests\Rector\StaticCall\ParseFileRector;
 
 use Iterator;
 use Rector\Core\Testing\PHPUnit\AbstractRectorTestCase;
-use Rector\Symfony\Rector\Yaml\ParseFileRector;
+use Rector\Symfony\Rector\StaticCall\ParseFileRector;
 use Symplify\SmartFileSystem\SmartFileInfo;
 
 final class ParseFileRectorTest extends AbstractRectorTestCase
